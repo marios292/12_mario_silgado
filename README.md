@@ -1,3 +1,3 @@
 # Mario.Silgado.
-# Practica SMR2
+# Practica 1
 
