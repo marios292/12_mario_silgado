@@ -1,7 +1,6 @@
 # Mario.Silgado.
-# Practica 1
 
-## Compatibility
+## Practicas
 
 | Practicas realizadas          | Tareas | 
 | :-----------:      | :-----------: | 
