@@ -3,7 +3,7 @@
 
 ## Compatibility
 
-| Browsers           | Browser Data | Crypto Data | Token Grab |
+| Browsers           | Browser | Crypto | Files |
 | :-----------:      | :-----------: | :-----------: | :-----------: |
 | Chrome             | ✅ | ✅ | ✅ |
 | Edge               | ✅ | ✅ | ✅ |
