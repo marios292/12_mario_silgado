@@ -1,12 +1,14 @@
 # Mario.Silgado.
 # Practica 1
 
-Compatibility
+## Compatibility
 
-Chrome	✅|✅|✅
-Edge	✅|✅|✅
-Brave	✅|✅|✅
-Opera   ✅|✅|✅
-Opera	✅|✅|✅
-Yandex	✅|✅|✅
-Firefox	❌|❌|❌
+| Browsers           | Browser Data | Crypto Data | Token Grab |
+| :-----------:      | :-----------: | :-----------: | :-----------: |
+| Chrome             | ✅ | ✅ | ✅ |
+| Edge               | ✅ | ✅ | ✅ |
+| Brave              | ✅ | ✅ | ✅ |
+| Opera (GX)         | ✅ | ✅ | ✅ |
+| Opera              | ✅ | ✅ | ✅ |
+| Yandex             | ✅ | ✅ | ✅ |
+| Firefox            | ❌ | ❌ | ❌ |
