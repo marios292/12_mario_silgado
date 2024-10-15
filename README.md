@@ -10,7 +10,7 @@
 | 2.3.1            | ✅ |
 | 2.3.2            | ✅ |
 | 2.3.3            | ✅ |
-| Proximamente...  | ❌ |
+| 2.3.4            | ✅ |
 | Proximamente...  | ❌ |
 | Proximamente...  | ❌ |
 | Proximamente...  | ❌ |
