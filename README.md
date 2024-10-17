@@ -11,7 +11,7 @@
 | 2.3.2            | ✅ |
 | 2.3.3            | ✅ |
 | 2.3.4            | ✅ |
-| Proximamente...  | ❌ |
+| 2.4              | ✅ |
 | Proximamente...  | ❌ |
 | Proximamente...  | ❌ |
 | Proximamente...  | ❌ |
