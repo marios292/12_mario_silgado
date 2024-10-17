@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <form>
+    <form action="mailto:mario.silgado@educa.madrid.org" method="post">
         <fieldset>
             <legend>Personaje</legend>
             <label for="Superhéroe">Superhéroe favorito</label>
@@ -38,7 +38,8 @@
                 <option value="doctor_strange">Doctor Strange</option>
                 <label for="color">Color</label>
             </select>
-            <br><input name="color" id="color" type="color">
+            <label>Color</label>
+            <input name="color" id="color" type="color">
         </fieldset>
         <fieldset>
             <legend>Datos de usuario</legend>
@@ -47,7 +48,8 @@
             <label for="telefono">Teléfono:</label>
             <input name="telefono" id="telefono" type="number" tabindex="1" />
         </fieldset>
-        <label><input type="submit"></label>  </form>
+        <input class="form_button" type="submit" value="Enviar">
+    </form>
 
 </body>
 
