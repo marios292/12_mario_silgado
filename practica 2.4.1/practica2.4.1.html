@@ -55,14 +55,16 @@
         </fieldset>
         <fieldset>
             <legend>Selecciona forma de contacto preferida</legend>
+            <div style="display: flex; gap: 8px;">
 
-            <label for="Email">Email</label>
-            <input type="radio" id="Email" name="drone" value="Email" />
-            <label for="Teléfono">Teléfono</label>
-            <input type="radio" id="Teléfono" name="drone" value="Teléfono" />
-            <label for="Carta">Carta</label>
-            <input type="radio" id="Carta" name="drone" value="Carta" />
+                <input type="radio" id="Email" name="drone" value="Email" />
+                <label for="Email">Email</label>
+                <input type="radio" id="Teléfono" name="drone" value="Teléfono" />
+                <label for="Teléfono">Teléfono</label>
+                <input type="radio" id="Carta" name="drone" value="Carta" />
+                <label for="Carta">Carta</label>
 
+            </div>
         </fieldset>
         <fieldset>
             <legend>Elije tus asignaturas favoritas</legend>
@@ -76,8 +78,14 @@
 
         </fieldset>
 
-
+        <div style="display: flex; gap: 8px;">
         <input class="form_button" type="submit" value="Enviar">
+
+
+        <input class="form_button" type="reset" value="Reset" />
+
+        </div>
+
     </form>
 
 </body>
