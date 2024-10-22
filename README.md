@@ -13,6 +13,6 @@
 | 2.3.4            | ✅ |
 | 2.4              | ✅ |
 | 2.4.1            | ✅ |
-| Proximamente...  | ❌ |
+| 2.5              | ✅ |
 | Proximamente...  | ❌ |
 | Proximamente...  | 🟧 |
