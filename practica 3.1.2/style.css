@@ -70,3 +70,6 @@ td.empresa:hover {
 td.ingles:hover {
     background-color: crimson;
 }
+td.horas:hover {
+    background-color: slateblue;
+}
