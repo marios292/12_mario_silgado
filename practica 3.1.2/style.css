@@ -52,3 +52,15 @@ th:nth-child(1){
     border: 0;
     color: white;
 }
+td.SOR:hover {
+    background-color: gray;
+}
+td.ser:hover {
+    background-color: beige;
+}
+td.seg:hover {
+    background-color: thistle;
+}
+td.ap:hover {
+    background-color: tan;
+}
