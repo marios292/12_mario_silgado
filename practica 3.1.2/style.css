@@ -13,7 +13,8 @@ caption {
     color: aliceblue;
     border: 5px outset;
 }
-td.hover{
+
+td.hover {
     background-color: white;
 }
 
@@ -42,34 +43,42 @@ table {
 }
 
 
-td:nth-child(1){
+td:nth-child(1) {
     background-color: royalblue;
     border-radius: 10px;
     color: aliceblue;
 }
-th:nth-child(1){
+
+th:nth-child(1) {
     background-color: white;
     border: 0;
     color: white;
 }
+
 td.SOR:hover {
     background-color: gray;
 }
+
 td.ser:hover {
     background-color: beige;
 }
+
 td.seg:hover {
     background-color: thistle;
 }
+
 td.ap:hover {
     background-color: tan;
 }
+
 td.empresa:hover {
     background-color: tomato;
 }
+
 td.ingles:hover {
     background-color: crimson;
 }
+
 td.horas:hover {
     background-color: slateblue;
 }
