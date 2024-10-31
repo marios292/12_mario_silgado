@@ -51,47 +51,55 @@
             <label for="fecha">Fecha</label>
             <input name="fecha" id="fecha" type="date" tabindex="1">
             <label for="contraseña">Contraseña</label>
-            <input id="contraseña" placeholder="Escribe aqui" id="contraseña" type="password"> </fieldset>
-           </fieldset>
-            <fieldset>
-                <legend>Selecciona forma de contacto preferida</legend>
-                <div style="display: flex; gap: 8px;">
-
-                    <input type="radio" id="Email" name="Email" value="Email" />
-                    <label for="Email">Email</label>
-                    <input type="radio" id="Teléfono" name="drone" value="Teléfono" />
-                    <label for="Teléfono">Teléfono</label>
-                    <input type="radio" id="Carta" name="drone" value="Carta" />
-                    <label for="Carta">Carta</label>
-
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Elije tus asignaturas favoritas</legend>
-
-                <label for="Aplicaciones Web">Aplicaciones Web</label>
-                <input type="checkbox" id="Aplicaciones Web" name="Aplicaciones Web" />
-                <label for="Seguridad Informática">Seguridad Informática</label>
-                <input type="checkbox" id="horns" name="horns" />
-           
-
-
-
-            </fieldset>
-            <fieldset>
-                <legend>Información de contacto</legend>
-                <label for="email">mario.silgado@educa.madrid.org</label>
-                <input type="email" id="email" name="email" placeholder="mario.silgado@educa.madrid.org">
-    
-            </fieldset>
-
+            <input id="contraseña" placeholder="Escribe aqui" name="contraseña" type="password">
+        </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona forma de contacto preferida</legend>
             <div style="display: flex; gap: 8px;">
-                <input class="form_button" type="submit" value="Enviar">
 
-
-                <input class="form_button" type="reset" value="Reset" />
+                <input type="radio" id="Email" name="forma_de_contacto" value="Email" />
+                <label for="Email">Email</label>
+                <input type="radio" id="Teléfono" name="forma_de_contacto" value="Teléfono" />
+                <label for="Teléfono">Teléfono</label>
+                <input type="radio" id="Carta" name="forma_de_contacto" value="Carta" />
+                <label for="Carta">Carta</label>
 
             </div>
+        </fieldset>
+        <fieldset>
+            <legend>Elije tus asignaturas favoritas</legend>
+
+            <label for="Aplicaciones Web">Aplicaciones Web</label>
+            <input type="checkbox" id="Aplicaciones Web" name="Asignatura" value="Aplicaciones Web" />
+            <label for="Seguridad Informática">Seguridad Informática</label>
+            <input type="checkbox" id="Seguridad Informática" name="Asignatura" value="Seguridad Informática" />
+
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Información adicional</legend>
+            <label for="email">correo</label>
+            <input type="email" id="email" name="email" placeholder="mario.silgado@educa.madrid.org">
+            <label for="Hora de envio">Hora de envio</label>
+            <input type="time" id="Hora de envio" name="Hora de envio">
+            <label>Mes de nacimiento</label>
+            <input type="month" id="month" name="Mes de nacimiento" value="Mes de nacimiento">
+            <label for="busqueda">Busqueda</label>
+            <input type="search" id="busqueda" name="busqueda" value="busqueda">
+            <label for="Teléfono">Teléfono</label>
+            <input type="tel" id="Teléfono" name="Teléfono" value="Teléfono">
+        </fieldset>
+
+        <div style="display: flex; gap: 8px;">
+            <input class="form_button" type="submit" value="Enviar">
+
+
+            <input class="form_button" type="reset" value="Reset" />
+
+        </div>
 
     </form>
 
