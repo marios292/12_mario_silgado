@@ -47,6 +47,7 @@ td:nth-child(1) {
     background-color: royalblue;
     border-radius: 10px;
     color: aliceblue;
+    
 }
 
 th:nth-child(1) {
@@ -79,9 +80,15 @@ td.ingles:hover {
     background-color: crimson;
 }
 
-td.horas:hover {
+td:nth-child(1):hover {
     background-color: slateblue;
 }
 td.tuto:hover {
     background-color: gainsboro;
+}
+#aula {
+    visibility: hidden;
+}
+td.ser:hover #aula {
+    visibility: visible;
 }
