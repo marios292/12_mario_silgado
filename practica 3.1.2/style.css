@@ -82,3 +82,6 @@ td.ingles:hover {
 td.horas:hover {
     background-color: slateblue;
 }
+td.tuto:hover {
+    background-color: gainsboro;
+}
