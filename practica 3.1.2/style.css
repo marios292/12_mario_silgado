@@ -64,3 +64,9 @@ td.seg:hover {
 td.ap:hover {
     background-color: tan;
 }
+td.empresa:hover {
+    background-color: tomato;
+}
+td.ingles:hover {
+    background-color: crimson;
+}
