@@ -1,0 +1,94 @@
+td {
+    border-style: inset;
+}
+
+body article p {
+    color: green;
+}
+
+caption {
+    background-color: darkslateblue;
+    border-radius: 50px;
+    padding: 15PX;
+    color: aliceblue;
+    border: 5px outset;
+}
+
+td.hover {
+    background-color: white;
+}
+
+th {
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 5px outset;
+}
+
+td {
+    padding: 7px;
+    text-align: center;
+}
+
+td.recreo:hover {
+    background-color: white;
+}
+
+table {
+    border: 15px;
+}
+
+.recreo {
+    background-color: yellow;
+}
+
+
+td:nth-child(1) {
+    background-color: royalblue;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+
+th:nth-child(1) {
+    background-color: white;
+    border: 0;
+    color: white;
+}
+
+td.SOR:hover {
+    background-color: gray;
+}
+
+td.ser:hover {
+    background-color: beige;
+}
+
+td.seg:hover {
+    background-color: thistle;
+}
+
+td.ap:hover {
+    background-color: tan;
+}
+
+td.empresa:hover {
+    background-color: tomato;
+}
+
+td.ingles:hover {
+    background-color: crimson;
+}
+
+td:nth-child(1):hover {
+    background-color: slateblue;
+}
+td.tuto:hover {
+    background-color: gainsboro;
+}
+#aula {
+    visibility: hidden;
+}
+td.ser:hover #aula {
+    visibility: visible;
+}
