@@ -1,6 +1,6 @@
 #nav {
     background-color: beige;
-
+    align-self: flex-end;
 }
 
 #nav ul {
@@ -29,17 +29,19 @@
 .container {
     background-color: purple;
     display: flex;
-
     padding: 10px 15px;
+    justify-content: flex-end;
 }
 
 .container2 {
     background-color: black;
     flex-wrap: wrap-reverse;
     flex-direction: row-reverse;
+
 }
 
 .caja {
     background-color: orange;
     margin: 6px;
+    
 }
