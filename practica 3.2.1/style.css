@@ -14,6 +14,7 @@
     background-color: maroon;
     padding: 10px 15px;
     border: 5px solid rgb(31, 29, 29);
+    margin: 10px;
 }
 
 #nav ul li:hover {
@@ -41,5 +42,5 @@
 .caja {
     background-color: orange;
     margin: 6px;
-    
+
 }
