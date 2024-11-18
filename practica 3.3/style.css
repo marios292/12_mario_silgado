@@ -71,11 +71,18 @@ h3 {
 ul {
     list-style-type: none;
     padding-left: 0;
+    
 }
 
 ul li {
     font-size: 1.1em;
     margin-bottom: 8px;
+    background-color: beige;
+    display: flex;
+    justify-content: right;
+}
+ul li:hover {
+    background-color: powderblue;
 }
 
 a {
