@@ -114,29 +114,24 @@ header .profile-photo img {
 nav {
 
     background-color: beige;
+ border-radius: 75px;
+}
+
+
+nav ul {
     display: flex;
     justify-content: space-between;
 }
 
-#nav {
-    background-color: beige;
-    border-radius: 90px;
-}
-
-#nav ul {
-    display: flex;
-
-}
-
 #nav ul li {
-    background-color: #2980B9;
+    background-color: #2C3E50;
     padding: 10px;
     border: 3px solid black;
     margin: 10px;
 }
 
 #nav ul li:hover {
-    background-color: #34495E;
+    background-color: steelblue;
 }
 
 #nav ul li a {
