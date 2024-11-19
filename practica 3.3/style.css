@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -108,7 +108,7 @@ header .profile-photo {
 header .profile-photo img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 50px;
     object-fit: cover;
     border: 3px solid #2980B9;
 }
@@ -150,6 +150,6 @@ ul {
 footer {
     padding: 10px;
     background-color: #68c3ff;
-    border-radius: 75px;
+    border-radius: 5px;
 
 }
