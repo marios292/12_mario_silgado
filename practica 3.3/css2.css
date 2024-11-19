@@ -1,0 +1,120 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    font-family: Montserrat, 'Courier New';
+    background-color: rgb(225, 208, 208);
+   }
+   
+   header img {
+    border-radius: 100px;
+    width: 180px;
+   }
+   
+   header h1 {
+    color: rgb(0, 0, 0);
+   }
+   
+   header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    background: radial-gradient(circle, rgb(97, 219, 213) 0%, rgb(160, 95, 157) 100%);
+   }
+   
+   nav {
+    background-color: rgb(84, 177, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 60px;
+   }
+   
+   nav ul li{
+    margin: 0;
+   }
+   
+   nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    transition: color 0.2s;
+   }
+   
+   nav ul li a:hover{
+    color: rgb(0, 0, 0)
+   }
+   
+   section {
+    padding-left: 10px;
+   }
+   
+   section:not(:last-child) {
+    border-bottom: 1px solid rgb(156, 154, 154);
+   }
+   
+   .knowledge {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   }
+   
+   footer {
+    background: linear-gradient(to top, cadetblue, rgb(226, 142, 243));
+    min-height: 100px;
+    text-align: end;
+    padding: 20px 15px;
+   }
+   
+   #Destrezas ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: rgb(81, 167, 170);
+   }
+   
+   #Destrezas .languages ul>li:before {
+    content: "►";
+    padding-right: 0em;
+   }
+   
+   #Destrezas ul {
+    list-style: none;
+   }
+   
+   h3 {
+    color: rgb(81, 167, 170)
+   }
+   
+   h4 {
+    color: rgb(81, 170, 170);
+   }
+   
+   .caja {
+    background-color: rgb(82, 231, 231);
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1px solid rgb(88, 230, 222);
+    text-align: center;
+    width: 120px;
+    box-sizing: border-box;
+   }
+   
+   .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 233, 252);
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+   }
