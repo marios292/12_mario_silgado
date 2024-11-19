@@ -68,7 +68,7 @@ body {
    
    footer {
     background: linear-gradient(to top, cadetblue, rgb(226, 142, 243));
-    min-height: 100px;
+    min-height: 10px;
     text-align: end;
     padding: 20px 15px;
    }
