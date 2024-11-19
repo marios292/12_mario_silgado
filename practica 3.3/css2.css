@@ -90,7 +90,7 @@ body {
    .contenedor {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     background-color: rgb(92, 233, 252);
     flex-direction: row;
     padding: 15px;
