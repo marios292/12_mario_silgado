@@ -60,11 +60,6 @@ body {
     border-bottom: 1px solid rgb(156, 154, 154);
    }
    
-   .knowledge {
-    justify-content: space-between;
-    display: grid;
-    grid-template-columns: 50% 50%;
-   }
    
    footer {
     background: linear-gradient(to top, cadetblue, rgb(226, 142, 243));
@@ -73,20 +68,6 @@ body {
     padding: 20px 15px;
    }
    
-   #Destrezas ul>li:before {
-    content: "►";
-    padding-right: 0.5em;
-    color: rgb(81, 167, 170);
-   }
-   
-   #Destrezas .languages ul>li:before {
-    content: "►";
-    padding-right: 0em;
-   }
-   
-   #Destrezas ul {
-    list-style: none;
-   }
    
    h3 {
     color: rgb(81, 167, 170)
