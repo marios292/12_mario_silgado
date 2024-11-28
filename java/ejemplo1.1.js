@@ -51,6 +51,6 @@ micaja.onmouseenter = () => {
 }
 
 micaja = onmouseleave = () => {
-    micaja.innerHTML += "Hasta luego";
+    micaja.innerHTML = "Hasta luego";
 
 }
