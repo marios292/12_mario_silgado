@@ -14,3 +14,11 @@ var nota1 = 5;
 var nota2 = 4;
 var notaTotal = nota1 + nota2;
 var notaMedia = (nota1 + nota2) / 2;
+
+function mostrarFecha () {
+var now = Date();
+console.log("Ahora son: " + now)
+alert("Ahora son las: " + now)
+document.write("<h1>" + now + "</h1>")
+
+}
