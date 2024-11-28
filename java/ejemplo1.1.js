@@ -47,5 +47,10 @@ mostrarFecha();
 var micaja = document.getElementById("micaja")
 micaja.onmouseenter = () => {
     micaja.style.backgroundColor = "green";
+    micaja.style.fontSize = "40px"
+}
+
+micaja = onmouseleave = () => {
+    micaja.innerHTML += "Hasta luego";
 
 }
