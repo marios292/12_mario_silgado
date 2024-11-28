@@ -40,3 +40,12 @@ console.log("Click sobre el boton 1 ....");
 mostrarFecha();
 
 }
+
+
+//--------------------------------------------------------------------------------------------//
+
+
+document.getElementById("micaja").onmouseover = () => {
+    document.getElementById("micaja").style.backgroundColor = "green";
+
+}
