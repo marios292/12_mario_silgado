@@ -53,6 +53,7 @@ micaja.onmouseleave = () => {
 function changeFontSize() {
     var micaja = document.getElementById("micaja");
     var fontSizeMiCaja = micaja.style.fontSize;
+    console.log("mi caja font size" + fontSizeMiCaja)
 
 }
 
