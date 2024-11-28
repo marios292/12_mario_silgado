@@ -53,12 +53,21 @@ micaja.onmouseleave = () => {
 function changeFontSize() {
     var micaja = document.getElementById("micaja");
     var fontSizeMiCaja = micaja.style.fontSize;
-    console.log("mi caja font size" + fontSizeMiCaja)
-
-}
-
-var botonChangeFont = document.getElementById("botonChangeFontSize");
-    botonChangeFont.onclick = () => {
-        changeFontSize();
+    console.log("mi caja font size" + fontSizeMiCaja);
+    if (fontSizeMiCaja == "10px") {
+        micaja.style.fontSize = "12px";
+    } else if (fontSizeMiCaja == "12px") {
+        micaja.style.fontSize == "14px";
+    }
+    else {
+        micaja.style.fontSize = "10 px";
 
     }
+}
+
+
+var botonChangeFont = document.getElementById("botonChangeFontSize");
+botonChangeFont.onclick = () => {
+    changeFontSize();
+
+}
