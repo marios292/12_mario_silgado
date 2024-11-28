@@ -40,7 +40,7 @@ document.getElementById("boton1").onclick = () => {
 
 //--------------------------------------------------------------------------------------------//
 
-var micaja = document.getElementById("micaja");
+/*         var micaja = document.getElementById("micaja");
 micaja.onmouseenter = () => {
     micaja.style.backgroundColor = "green";
     micaja.style.fontSize = "40px";
@@ -49,4 +49,15 @@ micaja.onmouseenter = () => {
 micaja.onmouseleave = () => {
     micaja.innerHTML = "Hasta luego";
 
+}       */
+function changeFontSize() {
+    var micaja = document.getElementById("micaja");
+    var fontSizeMiCaja = micaja.style.fontSize;
+
 }
+
+var botonChangeFont = document.getElementById("botonChangeFontSize");
+    botonChangeFont.onclick = () => {
+        changeFontSize();
+
+    }
