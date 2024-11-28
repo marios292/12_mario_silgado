@@ -44,8 +44,8 @@ mostrarFecha();
 
 //--------------------------------------------------------------------------------------------//
 
-
-document.getElementById("micaja").onmouseover = () => {
-    document.getElementById("micaja").style.backgroundColor = "green";
+var micaja = document.getElementById("micaja")
+micaja.onmouseenter = () => {
+    micaja.style.backgroundColor = "green";
 
 }
