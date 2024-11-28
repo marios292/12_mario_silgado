@@ -10,7 +10,7 @@ function mostrarFecha() {
 
 
 
-
+//-----------------------------------------------------------------------------------------//
 
 var nombre = prompt("Dime tu nombre");
 var instituto = prompt("Nombre de instituto");
@@ -28,3 +28,15 @@ var nota1 = 5;
 var nota2 = 4;
 var notaTotal = nota1 + nota2;
 var notaMedia = (nota1 + nota2) / 2;
+
+
+
+
+//---------------------------------------------------------------------------------------//
+
+
+document.getElementById("boton1"),onclick = () => {
+console.log("Click sobre el boton 1 ....");
+mostrarFecha();
+
+}
