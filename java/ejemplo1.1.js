@@ -50,17 +50,22 @@ micaja.onmouseleave = () => {
     micaja.innerHTML = "Hasta luego";
 
 }       */
+document.getElementById("micaja").style.fontSize = "10px";
+
 function changeFontSize() {
     var micaja = document.getElementById("micaja");
+
     var fontSizeMiCaja = micaja.style.fontSize;
+
     console.log("mi caja font size" + fontSizeMiCaja);
+
     if (fontSizeMiCaja == "10px") {
-        micaja.style.fontSize = "12px";
-    } else if (fontSizeMiCaja == "12px") {
-        micaja.style.fontSize == "14px";
+        micaja.style.fontSize = "14px";
+    } else if (fontSizeMiCaja == "14px") {
+        micaja.style.fontSize = "18px";
     }
     else {
-        micaja.style.fontSize = "10 px";
+        micaja.style.fontSize = "10px";
 
     }
 }
