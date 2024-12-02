@@ -11,7 +11,15 @@ function cambiarcolor() {
     else {
         div.style.backgroundColor = "gray";
 
-    }
+ 
+   }
+
 }
 
+micaja.onmouseleave = () => {
+    micaja.innerHTML += "Adiós!";
+}
 
+micaja.onmouseenter = () => {
+    micaja.innerHTML += "Holaa!!";
+}
