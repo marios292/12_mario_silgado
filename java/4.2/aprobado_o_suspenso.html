@@ -6,6 +6,11 @@
                 height: 150px;
                 width: 150px;
             }
+            div {
+                background-color: aquamarine;
+                height: 50px;
+                width: 50px;
+            }
         </style>
     </head>
     <body>
@@ -16,7 +21,7 @@
             <input type="number" max="10" id="nota_segunda_ev">
         </form>
         <!-- TODO: hacer que al pulsar el botón se calcule la nota final y se pinte el div con el texto y color adecuados -->
-        <button name="calcular">Calcular nota</button>
+        <button name="calcular" onclick="calcularNotaFinal">Calcular nota</button>
         <div id="resultado">
         </div>
 
