@@ -29,7 +29,12 @@
             function calcularNotaFinal(){
                 //recuperamos los valores introducidos por el usuario para las notas de primera evaluación y segunda evaluación
                 var notaPrimeraEv = document.getElementById("nota_primera_ev").value;
+                console.log("Nota primer input: " + notaPrimeraEv)
+
+
                 var notaSegundaEv = document.getElementById("nota_segunda_ev").value;
+                console.log("Nota segundo input: " + notaSegundaEv)
+
                 var divResultado = document.getElementById("resultado");
                 //en la variable notaFinal guardamos (notaPrimeraEv + notaSegundaEv) / 2
                 var notaFinal = (parseInt(notaPrimeraEv) + parseInt(notaSegundaEv))/2;
