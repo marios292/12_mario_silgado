@@ -17,7 +17,7 @@
             <input type="number" max="10" id="nota_segunda_ev">
         </form>
         <!-- TODO: hacer que al pulsar el botón se calcule la nota final y se pinte el div con el texto y color adecuados -->
-        <button name="calcular" onclick="calcularNotaFinal">Calcular nota</button>
+        <button name="calcular" id="calcular" onclick="calcularNotaFinal">Calcular nota</button>
         <div id="resultado">
         </div>
 
@@ -38,10 +38,10 @@
 
                 if(notaFinal >= 5){
                     divResultado.style.backgroundColor = "aquamarine";
-                    divResultado.innerHTML = "Aprobado"
+                    divResultado.innerHTML = 
                     //TODO: recuperar por id el elemento resultado, y asignar a su propiedad innerHTML el texto "APROBADO :)"
                     //TODO: recuperar por id el elemento resultado y asignar a su propiedad style.backgroundColor el color "green"
-                } else{
+                } else {
                     divResultado.style.backgroundColor = "red";
                     divResultado.innerHTML = "Suspenso"
                     //TODO: recuperar por id el elemento resultado, y asignar a su propiedad innerHTML el texto "VUELVE A INTENTARLO :("
