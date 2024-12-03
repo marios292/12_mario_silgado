@@ -16,6 +16,8 @@
         <input type="number" max="10" id="nota_primera_ev">
         <label>Nota segunda evaluaci&oacute;n</label>
         <input type="number" max="10" id="nota_segunda_ev">
+        <label>Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="nombre">
     </form>
 
     <button name="calcular" id="calcular" onclick="calcularNotaFinal()">Calcular nota</button>
@@ -40,11 +42,11 @@
 
             if (notaFinal >= 5) {
                 divResultado.style.backgroundColor = "green";
-                divResultado.innerHTML = "Aprobado";
+                divResultado.innerHTML = "Has aprobado " + nombre + ", tu nota es un " + notaFinal;
 
             } else {
                 divResultado.style.backgroundColor = "red";
-                divResultado.innerHTML = "Suspenso";
+                divResultado.innerHTML = "Has suspendido " + nombre + ", tu nota es un " + notaFinal ;
 
             }
         }
